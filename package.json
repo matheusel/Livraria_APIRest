@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/matheusel/EstaoServidos/issues"
   },
-  "homepage": "https://github.com/matheusel/EstaoServidos#readme"
+  "homepage": "https://github.com/matheusel/EstaoServidos#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
 }
