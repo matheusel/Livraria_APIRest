@@ -1,0 +1,129 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "type": "user",
+            "email": "example@user.com",
+            "name": "user01",
+            "image": "https://user.com/user01.jpg",
+            "adress": [
+                {
+                    "cep": 	23799899,
+                    "country": "Rio de Janeiro",
+                    "state": "RJ",
+                    "city": "Rio de Janeiro",
+                    "district": "Área Rural de Rio de Janeiro",
+                    "street": "Área Rural",
+                    "number": "10", 
+                    "complement": "Área Rural"
+                }
+            ]
+
+        }
+    ],
+
+    "genre": [
+        {
+            "id": 1,
+            "name": "technology"
+        },
+        {
+            "id": 2,
+            "name": "schedule"
+        },
+        {
+            "id": 3,
+            "name": "romance"
+        },
+        {
+            "id": 4,
+            "name": "young"
+        },
+        {
+            "id": 5,
+            "name": "history"
+        }
+    ],
+
+    "authors": [
+        {
+            "id": 1,
+            "name": "Casey McQuiston"
+        },
+        {
+            "id": 2,
+            "name": "Robert Cecil Martin"
+        },
+        {
+            "id": 3,
+            "name": "Elizabeth Castro"
+        },
+        {
+            "id": 4,
+            "name": "Bruce Hyslop"
+        },
+        {
+            "id": 5,
+            "name": "Andrew Grove"
+        },
+        {
+            "id": 6,
+            "name": "Cristina Yamagami"
+        }
+    ],
+
+    "livros": [
+        {
+            "id": 1,
+            "title": "Vermelho, branco e sangue azul",
+            "author_id": [1],
+            "genre_id": [3, 4],
+            "year": 2019,
+            "ISBN": 978150316776,
+            "description": "Vermelho, Branco e Sangue Azul é um romance de 2019 de Casey McQuiston. O romance foi lançado nos Estados Unidos em 14 de maio de 2019; no Brasil pela Editora Seguinte em novembro de 2019; tendo sua classificação para 16 anos.",
+            "image": "https://m.media-amazon.com/images/I/41QaXCahKrL._SX345_BO1,204,203,200_.jpg",
+            "price": 34.90,
+            "rating": 4.9
+        },
+        {
+            "id": 2,
+            "title": "Arquitetura Limpa",
+            "subtitle": "O guia do artesão para estrutura e design de software",
+            "author_id": [2],
+            "genre_id": [1, 2],
+            "year": 2019,
+            "ISBN": 8550804606,
+            "description": "As regras universais de arquitetura de software aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software. Agora, aproveitando o sucesso dos seus best-sellers Código Limpo e O Codificador Limpo, o lendário artesão de software Robert C. Martin (“Uncle Bob”) vai revelar essas regras e ajudar o leitor a aplicá-las.A Arquitetura Limpa de Martin não é só mais um catálogo de opções. Com base em meio século de experiência nos mais variados ambientes de software, Martin indica as escolhas que você deve fazer e explica por que elas são cruciais para o seu sucesso. Como já era esperado do Uncle Bob, este livro está cheio de soluções simples e diretas para os desafios reais que você enfrentará - aqueles que irão influenciar diretamente o sucesso ou fracasso dos seus projetos. Aprenda sobre as metas dos arquitetos de software - e as principais disciplinas e práticas que podem concretizá-las;Domine os princípios essenciais do design de software para abordar função, separação de componentes e gestão de dados;Veja como os paradigmas de programação impõem disciplina ao restringirem as ações dos desenvolvedores;Saiba identificar o que é crucialmente importante e o que é apenas um detalhe;Implemente estruturas ótimas e de alto nível para web, banco de dados, thick-client, console e aplicativos incorporados;Defina limites e camadas adequadas e organize os componentes e serviços;Saiba por que designs e arquiteturas dão errado e como prevenir (ou corrigir) essas falhas.",
+            "image": "https://m.media-amazon.com/images/P/B085PP6Y8P.01._SCLZZZZZZZ_SX500_.jpg",
+            "price": 64.59,
+            "rating": 4.8
+        },
+        {
+            "id": 3,
+            "title": "HTML5 e CSS3: guia prático e visual",
+            "subtitle": "",
+            "author_id": [3, 4],
+            "genre_id": [1, 2],
+            "year": 2013,
+            "ISBN": 8576088037,
+            "description": "Aprenda HTML5 e CSS3 de forma rápida e fácil!•A abordagem de fácil visualização utiliza exemplos de códigos do mundo real para guiá-lo pelo aprendizado de HTML e CSS, mostrando o que fazer em etapas.•Explicações e passos concisos permitem que você aprenda e coloque tudo em prática rapidamente.Seja um novato em HTML e CSS ou já esteja criando sites há anos, querendo aprender sobre HTML5, CS3 e mais, este livro tem algo para você - como estruturar conteúdos com elementos de HTML5; estilizar páginas com CSS e melhorá-las com algumas das novas características do CSS3; usar imagens, personalizar formulários e fontes web; adicionar áudio e vídeo no HTML5; construir um site que funcione em telefones celulares e smartphones, tablets, laptops e desktops; seguir as melhores práticas; e muito, muito mais!",
+            "image": "https://m.media-amazon.com/images/I/41mzPVlkxQL._SX380_BO1,204,203,200_.jpg",
+            "price": 94.60,
+            "rating": 4.5
+        },
+        {
+            "id": 4,
+            "title": "Gestão de Alta Performance",
+            "subtitle": "Tudo o que um gestor precisa saber para gerenciar equipes e manter o foco em resultados",
+            "author_id": [5, 6],
+            "genre_id": [1, 2],
+            "year": 2020,
+            "ISBN": 8557173598,
+            "description": "Tudo o que um gestor precisa saber sobre como criar e sustentar uma empresa de alto rendimento. Escrito pelo lendário Andrew S. Grove, que por mais de trinta anos atuou na Intel, tanto como CEO quanto como presidente do conselho, este é um livro de cabeceira de importantes líderes da atualidade. Gestão de alta performance é um guia prático que traz lições atemporais para gestores de todas as áreas, inclusive para CEOs e fundadores de startups. Com seu estilo único e direto, Grove cria analogias simples para explicar conceitos complexos, comparando, por exemplo, a gestão de uma empresa com o gerenciamento de uma fábrica de café da manhã, ou o desempenho de um funcionário com o desempenho de atletas, compondo um livro repleto de experiências que efetivamente podem ajudar os gestores em todos os seus desafios diários. Entre os assuntos abordados estão: quais indicadores devem ser usados para aumentar a eficiência de sua empresa; como manter o foco constante no resultado (ou output); como fazer com que subordinados se transformem em membros de equipes altamente produtivas; a importância da motivação e do treinamento dos colaboradores (segundo ele, se você não treina seu pessoal, está negligenciando metade de seu trabalho como gestor).Como diz o próprio Grove, a frase mais importante deste livro é: O resultado (ou output) de um gestor é o resultado (ou output) das unidades organizacionais sob sua supervisão ou influência. Ou seja, se suas equipes não tiverem um bom resultado, você também não terá. Diante disso, o que você pode fazer para aumentar o output de seu time? Este livro certamente vai ajudá-lo a responder a essa questão e o levará a enxergar o trabalho de uma forma totalmente diferente.Este livro exerceu um importante papel no desenvolvimento de meu estilo de gestão. Mark Zuckerberg, fundador do FacebookUm guia organizacional para gestores de todos os níveis [] Um manual de enorme credibilidade para planejar o trabalho e orientar e desenvolver equipes. The New York Times",
+            "image": "https://m.media-amazon.com/images/I/41znjA9fk6L._SX352_BO1,204,203,200_.jpg",
+            "price": 31.34,
+            "rating": 5
+        }
+        
+    ]
+}
